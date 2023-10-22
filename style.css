@@ -1,0 +1,378 @@
+@font-face {
+    font-family: NimbusB;
+    src: url(nimbus-sans-l/NimbusSanL-Bol.otf);
+}
+@font-face {
+    font-family: NimbusR;
+    src: url(nimbus-sans-l/NimbusSanL-Reg.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: NimbusR;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+}
+
+.nav{
+    position: relative;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.nav .nleft{
+    display: flex;
+    gap: 30px;
+}
+
+.nav a{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav #center{
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 16.8vw;
+    padding: 0 10vw;
+}
+
+.sustain{
+    width: 14vw;
+}
+
+.sustain p{
+    width: 16vw;
+    font-size: 12px;
+    margin: 10px 0;
+    font-weight: 800;
+    opacity: .7;
+    text-transform: capitalize;
+}
+
+.sustain .susimgwrap{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height: 19vw;
+}
+
+.sustain .susimgwrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ephemeral{
+    position: relative;
+    width: 30vw;
+    min-height: 40vw;
+}
+
+.ephemeral h1{
+    letter-spacing: -.5vw;
+    font-size: 6.5vw;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.ephemeral p{
+    margin-top: 2vw;
+    font-size: 1.6vw;
+    width: 70%;
+    line-height: 1.2;
+    letter-spacing: -.1vw;
+}
+
+.ephemeral .headings{
+    top: -23%;
+    left: -13%;
+    position: absolute;
+}
+
+.ephemeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.visit{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: space-between;
+    color: #5e5e5e;
+}
+
+.visit h3{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.circle1{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 1px solid #c3baba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.motive{
+    padding: 0 10vw;
+    margin-top: 7vw;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -.1vw;
+}
+
+.motive h3{
+    opacity: .7;
+}
+
+.motive p{
+    font-size: 2vw;
+    margin-top: 2vw;
+    padding: 2vw 0vw;
+    font-weight: 400;
+    letter-spacing: -.2vw;
+    line-height: 1.7;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+    gap: .9vw;
+}
+
+.motive p span{
+    display: inline-block;
+    white-space: nowrap;
+    height:2.8vw;
+    width: 80px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.motive p span img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.onespan{
+    margin: -.4vw .5vw;
+    background-image: url('images/bluegirl.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.span2{
+    margin: -.4vw .5vw;
+    background-image: url('images/shaljam.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.span3{
+    height:2.5vw;
+    width: 20px;
+    margin: -.4vw .5vw;
+    background-image: url('images/grass.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.motive p span:nth-child(1){
+    height: 2.5vw;
+    width: 50px;
+    margin: -.4vw .5vw;
+}
+.motive p span:nth-child(3){
+    height: 3vw;
+    width: 60px;
+    margin: -.6vw .5vw;
+}
+
+.motive p span:nth-child(2){
+    height: 3vw;
+    width: 90px;
+    margin: -.6vw .5vw;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    padding-top: 4vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+
+.firstpic{
+    width: 16vw;
+}
+
+.firstpic .image{
+    width: 100%;
+    height: 27vw;
+    margin-bottom: 1vw;
+}
+
+.firstpic h1, .secondpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+}
+
+.firstpic p, .secondpic p{
+    opacity: .8;
+    font-size: 1vw;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.secondpic{
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.secondpic .image2{
+    width: 100%;
+    height: 38vw;
+    margin-bottom: 1vw;
+}
+
+.secondpic .image2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.secondpic p{
+    width: 80%;
+    text-align: right;
+}
+
+.border-fle{
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fimg{
+    width: 70%;
+    height: 36vw;
+}
+
+.fimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.rtext{
+    width: 25%;
+}
+
+.rtext h1{
+    line-height: 1;
+    margin-bottom: 1.9vw;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+}
+
+.rtext p{
+    font-size: 1.1vw;
+    opacity: .8;
+    letter-spacing: -.4px;
+    width: 80%;
+}
+
+.future{
+    margin-top: 4vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.text{
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    padding: 2vw;
+    border-radius: .7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+
+.text h1{
+    cursor: text;
+    letter-spacing: -.2vw;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+.text button{
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    padding: .9vw 1.4vw;
+    border-radius: 100px;
+    border: none;
+    background-color: #c9c9c9;
+    font-size: 1.4vw;
+    font-weight: 100;
+    letter-spacing: -.1vw;
+    opacity: .8;
+    margin-top: 1.2vw;
+    text-transform: capitalize;
+}
